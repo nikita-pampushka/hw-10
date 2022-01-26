@@ -14,6 +14,7 @@ body {
 .container {
     width: 1110px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .top {
@@ -81,10 +82,6 @@ body {
     border: 1px solid #000;
 }
 
-.intro {
-    text-align: center;
-}
-
 .intro-title {
     font-size: 72px;
     line-height: 86px;
@@ -125,11 +122,10 @@ body {
 
 .features {
     background-color: #fafafa;
-    text-align: center;
     padding: 63px 0 229px 0;
 }
 
-.features-title {
+.section-title {
     font-weight: 600;
     font-size: 36px;
     line-height: 54px;
@@ -160,7 +156,7 @@ body {
     left: calc((350px - 293px)*0.5);
 }
 
-.features-cards-image-title {
+.section-cards-title {
     font-size: 18px;
     line-height: 22px;
     color: #101010;
@@ -168,7 +164,7 @@ body {
     margin-bottom: 16px;
 }
 
-.features-cards-image-title.manage {
+.section-cards-title.manage {
     text-transform: none;
 }
 
@@ -176,7 +172,7 @@ body {
     text-transform: lowercase;
 }
 
-.features-cards-image-text {
+.section-cards-text {
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
@@ -193,8 +189,66 @@ body {
 }
 
 .features-cards-image-link:hover {
-    color: #2512d1;
+    color: #a6a2cc;
     display: block;
-    border: 1px solid #2512d1;
+    border: 1px solid #a6a2cc;
     border-radius: 9px;
+}
+
+.technology {
+    background-color: #ffffff;
+    padding: 63px 0 104px 0;
+}
+
+.technology-cards-link {
+    display: block;
+    padding: 0 32px 19px 32px;
+    text-decoration: none;
+    position: relative;
+}
+
+.technology-cards-item {
+    display: inline-block;
+    width: 255px;
+    margin-right: 30px;
+}
+
+.technology-cards-item:last-child {
+    margin-right: 0;
+}
+
+.technology-cards-number {
+    font-size: 100px;
+    line-height: 120px;
+    color: rgba(16, 16, 16, 0.08);
+    margin-bottom: 19px;
+}
+
+.cloud {
+    position: absolute;
+    top: 71.5px;
+    left: 92px;
+}
+
+.security {
+    position: absolute;
+    top: 68.35px;
+    left: 103.15px;
+}
+
+.pdf {
+    position: absolute;
+    top: 69px;
+    left: 104.09px;
+}
+
+.csv {
+    position: absolute;
+    top: 71px;
+    left: 104px;
+}
+
+.technology-cards-link:hover {
+    background-color: #a6a2cc;
+    border-radius: 20px;
 }
