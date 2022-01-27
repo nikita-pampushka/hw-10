@@ -200,6 +200,10 @@ body {
     padding: 63px 0 104px 0;
 }
 
+.section-title.tech {
+    margin-bottom: 53px;
+}
+
 .technology-cards-link {
     display: block;
     padding: 0 32px 19px 32px;
@@ -251,4 +255,101 @@ body {
 .technology-cards-link:hover {
     background-color: #a6a2cc;
     border-radius: 20px;
+}
+
+.section-cards-text.tech {
+    margin-bottom: 0;
+}
+
+.footer {
+    background-color: #FAFAFA;
+    padding: 85px 0 83px 0;
+}
+
+.footer-list {
+    margin-bottom: 109px;
+}
+
+.footer-list-item {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 254px;
+    margin-right: 30px;
+}
+
+.footer-list-item:last-child {
+    margin-right: 0;
+}
+
+.section-cards-title.bottom {
+    margin-bottom: 33px;
+}
+
+.section-cards-text.address {
+    margin-bottom: 0;
+}
+
+.section-cards-text.services {
+    text-decoration: none;
+}
+
+.section-cards-text.services:hover {
+    color: #a6a2cc;
+}
+
+.section-cards-text.contact {
+    display: block;
+    margin-bottom: 7px;
+    text-decoration: none;
+}
+
+.section-cards-text.contact:last-child {
+    margin-bottom: 16px;
+}
+
+.section-cards-text.contact:hover {
+    color: #a6a2cc;
+}
+
+.socials-link {
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin-right: 12px;
+}
+
+.socials-link:last-child {
+    margin-right: 0;
+}
+
+.socials-link.facebook {
+    background-image: url('images/facebook.png');
+    background-size: contain;
+}
+
+.socials-link.linkedin {
+    background-image: url('images/linkedin.png');
+    background-size: contain;
+}
+
+.socials-link.twitter {
+    background-image: url('images/twitter.png');
+    background-size: contain;
+}
+
+.visa-mc {
+    margin-left: 6px;
+}
+
+.copyright {
+    text-align: left;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #101010;
+}
+
+.socials-link:hover {
+    box-shadow: 0px 0px 0px 2px rgba(166, 162, 204, 1);
 }
