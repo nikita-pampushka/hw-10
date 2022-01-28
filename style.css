@@ -7,8 +7,10 @@ body {
     font-weight: 700;
 }
 
-.clearfix {
+.clearfix::after {
+    content: "";
     clear: both;
+    display: block;
 }
 
 .container {
@@ -18,8 +20,7 @@ body {
 }
 
 .top {
-    height: 100px;
-    margin-bottom: 157px;
+    margin-bottom: 184px;
 }
 
 .header {
@@ -36,12 +37,12 @@ body {
 
 .top-nav {
     float: left;
-    margin-top: 48px;
+    margin-top: 45px;
 }
 
 .top-nav-item {
     float: left;
-    margin-right: 20px;
+    margin-right: 21px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -50,6 +51,7 @@ body {
 }
 
 .top-nav-link {
+    display: block;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -71,7 +73,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    padding: 12px 28px;
+    padding: 11px 28px;
     border: 1px solid #FFFFFF;
     border-radius: 6px;
     margin-top: 33px;
@@ -98,6 +100,10 @@ body {
     color: #FFFFFF;
     width: 540px;
     margin: 0 auto 55px auto;
+}
+
+.intro-text.start {
+    margin-bottom: 0;
 }
 
 .intro-button {
@@ -143,6 +149,10 @@ body {
 
 .features-cards-item:last-child {
     margin-right: 0;
+}
+
+.features-cards-image {
+    display: block;
 }
 
 .features-cards-image-caption {
@@ -257,6 +267,10 @@ body {
     border-radius: 20px;
 }
 
+.section-cards-title.tech {
+    margin-bottom: 10px;
+}
+
 .section-cards-text.tech {
     margin-bottom: 0;
 }
@@ -286,12 +300,19 @@ body {
     margin-bottom: 33px;
 }
 
+.section-cards-title.bottom.services {
+    margin-bottom: 28px;
+}
+
 .section-cards-text.address {
     margin-bottom: 0;
 }
 
 .section-cards-text.services {
+    display: block;
     text-decoration: none;
+    color: #000000;
+    margin-bottom: 0px;
 }
 
 .section-cards-text.services:hover {
@@ -304,8 +325,8 @@ body {
     text-decoration: none;
 }
 
-.section-cards-text.contact:last-child {
-    margin-bottom: 16px;
+.section-cards-text.contact.phone {
+    margin-bottom: 17px;
 }
 
 .section-cards-text.contact:hover {
